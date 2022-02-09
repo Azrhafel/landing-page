@@ -1,0 +1,31 @@
+header{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgba(#e4bb08, 0.4);
+  width: 100%;
+  align-items: center;
+
+  #nav-bar{
+    
+    .nav-list{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      font-family: Oswald;
+      font-size: 3vh;
+
+      #nav-link{
+        text-align: center;
+      }
+    }
+  }
+
+  #header-img {
+    width: 10vh;
+    height: 10vh;
+    float: right;
+
+  }
+}

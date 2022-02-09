@@ -1,0 +1,26 @@
+header {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgba(228, 187, 8, 0.4);
+  width: 100%;
+  align-items: center;
+}
+header #nav-bar .nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-family: Oswald;
+  font-size: 3vh;
+}
+header #nav-bar .nav-list #nav-link {
+  text-align: center;
+}
+header #header-img {
+  width: 10vh;
+  height: 10vh;
+  float: right;
+}
+
+/*# sourceMappingURL=header.css.map */
