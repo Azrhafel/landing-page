@@ -5,6 +5,11 @@ header {
   background-color: rgba(228, 187, 8, 0.4);
   width: 100%;
   align-items: center;
+  position: fixed;
+  top: 0;
+}
+header #nav-bar {
+  padding-left: 30px;
 }
 header #nav-bar .nav-list {
   display: flex;
@@ -14,13 +19,9 @@ header #nav-bar .nav-list {
   font-family: Oswald;
   font-size: 3vh;
 }
-header #nav-bar .nav-list #nav-link {
-  text-align: center;
-}
 header #header-img {
   width: 10vh;
-  height: 10vh;
-  float: right;
+  height: 100%;
 }
 
 /*# sourceMappingURL=header.css.map */
