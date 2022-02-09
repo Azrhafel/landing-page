@@ -1,4 +1,5 @@
 @use "header";
+@use "product";
 
 *{
   margin: 0;
@@ -6,7 +7,10 @@
 }
 
 body{
-  background: url("https://i.pinimg.com/736x/46/8a/bf/468abf3f392631aac269c18ee4a77dec.jpg");
+  background: url("https://www.itl.cat/pngfile/big/0-6130_cute-wallpapers-picture-cute-wallpaper-desktop.jpg");
   font-family: Shizuru;
-  width: 100%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

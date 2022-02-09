@@ -1,32 +1,3 @@
-header {
-  margin: 0;
-  padding: 0;
-  color: white;
-  background-color: rgba(228, 187, 8, 0.7);
-  width: 100%;
-  align-items: center;
-  position: fixed;
-  top: 0;
-}
-header #nav-bar {
-  padding-left: 30px;
-}
-header #nav-bar .nav-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-  font-family: Oswald;
-  font-size: 3vh;
-}
-header #nav-bar .nav-list a:hover {
-  background-color: rgba(204, 208, 219, 0.4);
-}
-header #header-img {
-  width: 10vh;
-  height: 100%;
-}
-
 #shirts {
   display: flex;
   padding-top: 60px;
@@ -173,18 +144,5 @@ header #header-img {
     padding: 10px 10px 0px 0px;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 
-body {
-  background: url("https://www.itl.cat/pngfile/big/0-6130_cute-wallpapers-picture-cute-wallpaper-desktop.jpg");
-  font-family: Shizuru;
-  width: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-/*# sourceMappingURL=input.css.map */
+/*# sourceMappingURL=product.css.map */

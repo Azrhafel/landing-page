@@ -2,7 +2,7 @@ header {
   margin: 0;
   padding: 0;
   color: white;
-  background-color: rgba(#e4bb08, 0.4);
+  background-color: rgba(#e4bb08, 0.7);
   width: 100%;
   align-items: center;
   position:fixed;
@@ -10,6 +10,7 @@ header {
 
   #nav-bar {
     padding-left: 30px;
+    
     .nav-list {
       display: flex;
       justify-content: space-between;
@@ -17,6 +18,9 @@ header {
       list-style: none;
       font-family: Oswald;
       font-size: 3vh;
+      }
+      .nav-list a:hover{
+        background-color: rgba(#ccd0db, 0.4);
     }
   }
 

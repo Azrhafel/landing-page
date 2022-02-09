@@ -1,0 +1,164 @@
+#shirts {
+  display: flex;
+  padding-top: 60px;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  #shirt1 img {
+    width: 18vh;
+    height: 100%;
+  }
+
+  #shirt2 img {
+    width: 18vh;
+    height: 100%;
+  }
+
+  #shirt3 img {
+    width: 18vh;
+    height: 100%;
+  }
+}
+
+#sweaters {
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  #sweater1 img {
+    width: 18vh;
+    height: 100%;
+  }
+
+  #sweater2 img {
+    width: 18vh;
+    height: 100%;
+  }
+
+  #sweater3 img {
+    width: 18vh;
+    height: 100%;
+  }
+}
+
+#hoodies {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  #hoodie1 img {
+    width: 18vh;
+    height: 100%;
+    padding: 10px 10px 0px 0px;
+  }
+
+  #hoodie2 img {
+    width: 18vh;
+    height: 100%;
+    padding: 10px 10px 0px 0px;
+  }
+
+  #hoodie3 img {
+    width: 18vh;
+    height: 100%;
+    padding: 10px 10px 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #shirts {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(#f5e497, 0.7);
+
+    #shirt1 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+
+    #shirt2 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+
+    #shirt3 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+  }
+
+  #sweaters {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(#dd8108, 0.7);
+
+    #sweater1 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+
+    #sweater2 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+
+    #sweater3 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+  }
+
+  #hoodies {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(#e4bb08, 0.4);
+
+    #hoodie1 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+
+    #hoodie2 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+
+    #hoodie3 img {
+      width: 50vh;
+      height: 100%;
+      padding: 10px 10px 0px 0px;
+    }
+  }
+}
