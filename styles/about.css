@@ -1,0 +1,48 @@
+#video {
+  grid-area: video;
+  width: 60vh;
+  height: 45vh;
+}
+
+#infobox1 {
+  grid-area: info1;
+  border: 2px solid #f5e497;
+  text-align: center;
+  font-size: 5vh;
+  border-radius: 5%;
+  background-color: rgba(245, 228, 151, 0.4);
+}
+
+#infobox2 {
+  grid-area: info2;
+  border: 2px solid #dd8108;
+  text-align: center;
+  font-size: 5vh;
+  border-radius: 5%;
+  background-color: rgba(221, 129, 8, 0.2);
+}
+
+#infobox3 {
+  grid-area: info3;
+  border: 2px solid #e4bb08;
+  text-align: center;
+  font-size: 5vh;
+  border-radius: 5%;
+  background-color: rgba(228, 187, 8, 0.2);
+}
+
+@media only screen and (min-width: 768px) {
+  #about {
+    display: grid;
+    grid-template-columns: repeat(3, 69vh);
+    grid-template-rows: repeat(2, 50vh);
+    grid-template-areas: ". video ." "info1 info2 info3";
+  }
+
+  #video {
+    width: 69vh;
+    height: 50vh;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

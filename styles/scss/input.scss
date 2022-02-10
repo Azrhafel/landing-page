@@ -1,5 +1,6 @@
 @use "header";
 @use "product";
+@use "about";
 
 *{
   margin: 0;
@@ -8,7 +9,7 @@
 
 body{
   background: url("https://www.itl.cat/pngfile/big/0-6130_cute-wallpapers-picture-cute-wallpaper-desktop.jpg");
-  font-family: Shizuru;
+  font-family: "Supermercado One";
   width: auto;
   background-repeat: no-repeat;
   background-position: center;

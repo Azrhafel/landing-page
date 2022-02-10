@@ -6,10 +6,8 @@ header {
   width: 100%;
   align-items: center;
   position: fixed;
+  text-align: center;
   top: 0;
-}
-header #nav-bar {
-  padding-left: 30px;
 }
 header #nav-bar .nav-list {
   display: flex;
@@ -18,6 +16,7 @@ header #nav-bar .nav-list {
   list-style: none;
   font-family: Oswald;
   font-size: 3vh;
+  padding-left: 30px;
 }
 header #nav-bar .nav-list a:hover {
   background-color: rgba(204, 208, 219, 0.4);
@@ -25,6 +24,24 @@ header #nav-bar .nav-list a:hover {
 header #header-img {
   width: 10vh;
   height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-link {
+    width: 50vh;
+  }
+
+  .nav-link:nth-child(1) {
+    padding-left: 5vh;
+  }
+
+  .nav-link:nth-child(2) {
+    padding-left: 15vh;
+  }
+
+  .nav-link:nth-child(3) {
+    padding-left: 15vh;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */
