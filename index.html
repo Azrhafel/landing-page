@@ -130,32 +130,34 @@
       </div>
     </div>
     <section id="about">
-      <iframe id="video"
+      <iframe
+        id="video"
         width="320"
         height="240"
         src="https://www.youtube.com/embed/BwknA6aGqvs?autoplay=1&mute=1"
-      ></iframe><br>
-        <div id="infobox1">
-          <h2>The Material</h2>
-          <p>
-            We use the highest quality fabric and cotton to make the warmest and
-            softest clothing ever worn by anyone.
-          </p>
-        </div>
-        <div id="infobox2">
-          <h2>The Process</h2>
-          <p>
-            Each of our products are handmade you can be sure that every stitch
-            was handled with the utmost care
-          </p>
-        </div>
-        <div id="infobox3">
-          <h2>The Product</h2>
-          <p>
-            As of now, we're focusing on keeping your top half covered. But your
-            lower half should be able to enjoy our clothing soon too.
-          </p>
-        </div>
+      ></iframe
+      ><br />
+      <div id="infobox1">
+        <h2>The Material</h2>
+        <p>
+          We use the highest quality fabric and cotton to make the warmest and
+          softest clothing ever worn by anyone.
+        </p>
+      </div>
+      <div id="infobox2">
+        <h2>The Process</h2>
+        <p>
+          Each of our products are handmade you can be sure that every stitch
+          was handled with the utmost care
+        </p>
+      </div>
+      <div id="infobox3">
+        <h2>The Product</h2>
+        <p>
+          As of now, we're focusing on keeping your top half covered. But your
+          lower half should be able to enjoy our clothing soon too.
+        </p>
+      </div>
     </section>
     <section id="newsletter">
       <footer>
@@ -164,14 +166,22 @@
             <figcaption>
               Keep yourself up to date by filling up this form
             </figcaption>
-            <label for="email">Add your email address</label>
+            <label for="email">Add your email address:</label><br />
             <input
               id="email"
               name="email"
               type="email"
+              placeholder="Enter your email address"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
               required
-            />
+            /><br />
+            <label for="name">Add your name:</label><br />
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Who are you?"
+            /><br />
             <input id="submit" type="submit" />
           </figure>
         </form>

@@ -1,0 +1,37 @@
+footer {
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+  height: 30vh;
+  color: rgba($color: #585858d5, $alpha: 1.0);
+
+  figure{
+    border: 3px solid rgba($color: #51f007, $alpha: 0.6);
+    background: url("https://pbs.twimg.com/profile_images/1450510962360991751/KwyMn311_400x400.jpg");
+    border-radius: 10%;
+    height: 100%;
+    background-position: center;
+    padding-top: 20vh;
+  }
+
+  figcaption{
+    border: 3px none rgba($color: #000000, $alpha: 1.0);
+  }
+}
+
+@media only screen and (min-width:768px){
+  footer{
+    width: 70vh;
+    font-size: 4vh;
+    padding-left: 68vh;
+    height: 60vh;
+
+    figure{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgba(#e4bb08, 0.4);
+      height: 55vh;
+    }
+  }
+
+}
