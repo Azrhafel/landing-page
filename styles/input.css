@@ -63,21 +63,21 @@ header #header-img {
 #shirts #shirt1 img {
   width: 18vh;
   height: 100%;
-  border: 3px none;
+  border: 3px solid;
   border-color: black;
   border-radius: 25%;
 }
 #shirts #shirt2 img {
   width: 18vh;
   height: 100%;
-  border: 3px none;
+  border: 3px solid;
   border-color: black;
   border-radius: 25%;
 }
 #shirts #shirt3 img {
   width: 18vh;
   height: 100%;
-  border: 3px none;
+  border: 3px solid;
   border-color: black;
   border-radius: 25%;
 }
