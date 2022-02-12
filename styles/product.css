@@ -18,21 +18,21 @@
 #shirts #shirt1 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #shirts #shirt2 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #shirts #shirt3 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
@@ -49,21 +49,21 @@
 #sweaters #sweater1 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #sweaters #sweater2 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #sweaters #sweater3 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
@@ -81,21 +81,21 @@
 #hoodies #hoodie1 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #hoodies #hoodie2 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #hoodies #hoodie3 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
@@ -115,21 +115,21 @@
   #shirts #shirt1 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #shirts #shirt2 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #shirts #shirt3 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
@@ -148,21 +148,21 @@
   #sweaters #sweater1 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #sweaters #sweater2 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #sweaters #sweater3 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
@@ -181,21 +181,21 @@
   #hoodies #hoodie1 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #hoodies #hoodie2 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #hoodies #hoodie3 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }

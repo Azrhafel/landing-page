@@ -3,7 +3,7 @@ footer {
   align-items: center;
   text-align: center;
   height: 30vh;
-  color: rgba($color: #585858d5, $alpha: 1.0);
+  font-family: Merriweather;
 
   figure{
     border: 3px solid rgba($color: #51f007, $alpha: 0.6);
@@ -11,11 +11,17 @@ footer {
     border-radius: 10%;
     height: 100%;
     background-position: center;
-    padding-top: 20vh;
+
+    
   }
 
   figcaption{
     border: 3px none rgba($color: #000000, $alpha: 1.0);
+    border-radius: 13%;
+    color: rgba(black,1.0);
+    padding-bottom: 7vh;
+    background-color: rgba(pink,0.5);
+    padding-top: 7vh;
   }
 }
 

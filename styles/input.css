@@ -63,21 +63,21 @@ header #header-img {
 #shirts #shirt1 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #shirts #shirt2 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #shirts #shirt3 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
@@ -94,21 +94,21 @@ header #header-img {
 #sweaters #sweater1 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #sweaters #sweater2 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #sweaters #sweater3 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
@@ -126,21 +126,21 @@ header #header-img {
 #hoodies #hoodie1 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #hoodies #hoodie2 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
 #hoodies #hoodie3 img {
   width: 18vh;
   height: 100%;
-  border: 3px solid;
+  border: 3px none;
   border-color: black;
   border-radius: 25%;
 }
@@ -160,21 +160,21 @@ header #header-img {
   #shirts #shirt1 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #shirts #shirt2 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #shirts #shirt3 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
@@ -193,21 +193,21 @@ header #header-img {
   #sweaters #sweater1 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #sweaters #sweater2 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #sweaters #sweater3 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
@@ -226,25 +226,29 @@ header #header-img {
   #hoodies #hoodie1 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #hoodies #hoodie2 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
   #hoodies #hoodie3 img {
     width: 50vh;
     height: 100%;
-    border: 3px solid;
+    border: 3px none;
     border-color: black;
     border-radius: 25%;
   }
 }
+#about {
+  font-family: Oswald;
+}
+
 #video {
   grid-area: video;
   width: 60vh;
@@ -296,7 +300,7 @@ footer {
   align-items: center;
   text-align: center;
   height: 30vh;
-  color: #585858;
+  font-family: Merriweather;
 }
 footer figure {
   border: 3px solid rgba(81, 240, 7, 0.6);
@@ -304,10 +308,14 @@ footer figure {
   border-radius: 10%;
   height: 100%;
   background-position: center;
-  padding-top: 20vh;
 }
 footer figcaption {
   border: 3px none black;
+  border-radius: 13%;
+  color: black;
+  padding-bottom: 7vh;
+  background-color: rgba(255, 192, 203, 0.5);
+  padding-top: 7vh;
 }
 
 @media only screen and (min-width: 768px) {
